@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Flex", sans-serif;
+}
+.container{
+    /* background-color: rgb(190, 190, 242); */
+    padding:24px;
+    margin:3px auto;
+    text-align: center;
+    /* position: relative; */
+}
+/* .container::before{
+    content: "";
+    background: url('../MIT MU Campus.jpg') no-repeat center center/cover;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+} */
+h2{
+   text-align: center;
+   font-size: 27px;
+   font-family: "Belanosima", sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Rethink Sans", sans-serif;
+    text-shadow: 0 0 2px rgb(38 249 228);
+}
+
+input,textarea{
+    /* display: block; */
+    width: 65%;
+    margin: 7px auto;
+    padding: 8px;
+    font-size: 14px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+    }
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    background: #382fd3;
+    padding: 12px 12px;
+    /* margin: 8px; */
+    border: 2px solid white;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background: #5fba5f;
+    border: 2px solid white;
+}
+.submitmsg{
+    color: white;
+    font-family: "Sriracha", cursive;
+    background-color: blue;
+    /* padding: 2px; */
+    /* text-shadow: 0 0 2px rgb(106 234 245); */
+    border: 2px solid #1a1a19;
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;   
+}
